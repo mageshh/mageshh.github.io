@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+html{
+  min-height: 100%;
+}
+body{
+  padding: 2em;
+  color: black;  
+  background-color: white;
+}
+.name{
+    position: relative;
+    font-family: 'Anonymous Pro', monospace;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 250%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.anim-typewriter{
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 900ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 7.1em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}
+
+.profile-pic{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:450px;
+    height:290px;
+}
+
+.subs{
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    margin-left: 20%;
+    font-size: 180%;
+}
+
+.typewriter1{
+    animation: typewriter 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 900ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 7.1em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: black;}
+    to{border-right-color: transparent;}
+}
+
+.info{
+    margin-left: 22%;
+    margin-right: 24%;
+    font-size: 140%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.subheading{
+    position: relative;
+    font-family: 'Anonymous Pro', monospace;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    font-size: 210%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+}
+
+.typewriter2{
+    animation: typewriter_sec 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 900ms steps(44) infinite normal;
+}
+
+@keyframes typewriter_sec{
+    from{width: 0;}
+    to{width: 4.5em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: black;}
+    to{border-right-color: transparent;}
+}
+
+.research_pic1{
+    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.research_pic2{
+    margin-left: 50px;
+    transform: rotate(270deg);
+    width: 400px;
+    height: 320px;
+    margin-bottom: 50px;
+}
+
+.research_pic3{
+    transform: rotate(270deg);
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.project-info{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center; 
+    font-size: 140%;
+}
+
+a:link {
+    color: blue;
+}
+  
+a:visited {
+    color: brown;
+}
+  
+a:hover {
+    color: hotpink;
+}
+  
+
+a:active {
+    color: red;
+}
+
+.box {
+    background-color: #ff5c51;
+    width: 400px;
+    border: 5px solid orange;
+    margin: 20px;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+shr {
+    width: 85%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.sc1{
+    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.sc2{
+    margin-left: 50px;
+    width: 400px;
+    height: 320px;
+    margin-bottom: 40px;
+}
+
+.sc3{
+    width: 400px;
+    height: 180px;
+    margin-left: 60px;
+    margin-bottom: 110px;
+}
+
+.info1{
+    text-align: center;
+    font-size: 140%;
+    font-family: 'Nunito Sans', sans-serif;
+}

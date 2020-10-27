@@ -1,2 +1,2 @@
 # mageshh.github.io
-Personal Website
+Harysh Magesh's Personal Website containing projects and general information
