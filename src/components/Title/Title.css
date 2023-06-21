@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'EA Fifa';
+    src: url('../../assets/fonts/EASPORTS15.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.Title {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+    position: relative;
+}
+
+.chelsea-club {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.chelsea-club-logo {
+    height: 45px;
+}
+
+.top-left-name {
+    font-family: 'EA Fifa', sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.my-name {
+    color:#d2d4d6;
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+}

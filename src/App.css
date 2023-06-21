@@ -13,8 +13,13 @@
   }
 }
 
+body {
+  overflow: auto;
+  background: url("../src/assets/fifa_bg.png");
+}
+
 .App-header {
-  background-color: #282c34;
+  /*background-color: #282c34;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
