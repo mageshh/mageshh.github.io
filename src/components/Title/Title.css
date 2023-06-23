@@ -24,7 +24,7 @@
 }
 
 .chelsea-club-logo {
-    height: 45px;
+    height: 40px;
 }
 
 .top-left-name {
@@ -37,7 +37,56 @@
 
 .my-name {
     color:#d2d4d6;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 100;
     font-style: italic;
 }
+
+.top-right {
+    display: inline-flex; /* Modified */
+    position: relative;
+}
+
+.rs-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: black;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.rs-pic {
+    height: 40px;
+}
+
+.top-right-panel {
+    background-color:gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links-section {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.links-section span:not(:last-child) {
+    padding-right: 30px;
+}
+  
+.links-section span:last-child {
+    margin-right: 0;
+}
+
+a img {
+    border-radius: 50%;
+    transition: transform 0.5s ease-out;
+  }
+  
+  a img:hover {
+    transform: translateY(-5px); /* Move the image up by 3 pixels */
+  }
