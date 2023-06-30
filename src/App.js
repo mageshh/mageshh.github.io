@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react'
 import Title from './components/Title/Title';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import fifaVideo from './assets/fifa_bg_vid_crop.mp4';
 
 class App extends React.Component {
 
@@ -10,8 +10,11 @@ class App extends React.Component {
     console.log("rendering");
     return (
       <Router>
+        <div className="main">
+          <video src={fifaVideo} autoPlay loop muted />
+        </div>
         <div className="App">
-          <Title></Title>
+          <Title />
         </div>
       </Router>
     );
