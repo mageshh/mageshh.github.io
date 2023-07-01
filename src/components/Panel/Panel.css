@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'EA Fifa';
+    src: url('../../assets/fonts/EASPORTS15.ttf') format ('true type');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.panel-wrapper {
+    display: flex;
+    margin-top: 30%;
+    z-index: 1;
+}
+
+.panel-container {
+    flex: 0 0 calc(18% - 10px);
+    height: 80px;
+    margin-right: 8px;
+    background-color: rgb(40, 43, 50, 0.65);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    transition: box-shadow 0.2s ease-in-out;
+    z-index: 1;
+}
+
