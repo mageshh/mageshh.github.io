@@ -8,20 +8,18 @@ import fifaVideo from './assets/fifa_bg_vid_crop.mp4';
 class App extends React.Component {
 
   render() {
-    console.log("rendering");
     return (
       <Router>
         <div className="main">
           <video src={fifaVideo} autoPlay loop muted />
         </div>
-        <div className="App">
+        <div>
           <Title />
           <PanelWrapper />
         </div>
       </Router>
     );
   }
-
 }
 
 export default App;

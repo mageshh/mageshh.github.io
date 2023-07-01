@@ -22,3 +22,107 @@
     z-index: 1;
 }
 
+.panel-container.open {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.panel-container:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.panel-container:first-child {
+    flex: 0 0 calc(8% - 10px);
+    margin-left: 85px;
+}
+
+.panel-container:last-child {
+    flex: 0 0 calc(8% - 10px);
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    object-fit: cover;
+    cursor:auto;
+}
+
+.panel-exit {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 2;
+}
+
+.box-text {
+    font-family: 'EA Fifa', sans-serif;
+    font-style: italic;
+    font-weight:100;
+    font-size: 25px;
+    color: #dedada;
+    text-shadow: 1px 1px 2px black;
+    position:relative;
+    top: 10px;
+    left: 10px;
+}
+
+.panelbg-1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../../assets/infoIcon.png');
+    background-size: 40%;
+}
+
+.panelbg-2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url('../../assets/handshakeIcon.png');
+    background-size: 28%;
+}
+
+.panelbg-3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-position-x: 95%;
+    background-image: url('../../assets/codeIcon.png');
+    background-size: 19%;
+}
+
+.panelbg-4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url('../../assets/awardIcon.png');
+    background-size: 21%;
+}
+
+.panelbg-5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-position-x: 95%;
+    background-image: url('../../assets/folderIcon.png');
+    background-size: 18%;
+}
+
+.panelbg-6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../../assets/loadingIcon.png');
+    background-size: 45%;
+}
+
